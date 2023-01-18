@@ -157,6 +157,11 @@ body {
 .first-screen__col:first-child {
     border-left: 2px solid #a3a3a3;
     padding-left: 30px;
+    width: 55%;
+}
+
+.first-screen__col {
+    width: 45%;
 }
 
 .first-screen__title {
@@ -170,12 +175,21 @@ body {
 
 .first-screen__subtitle {
     color: var(--text-color);
-    font-size: 40px;
+    font-size: 34px;
     line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.first-screen__desc {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 620px;
+    color: var(--text-color);
 }
 
 .first-screen__photo {
     max-width: 550px;
+    min-height: 100%;
     padding-top: 50px;
     margin-bottom: -5px;
 }
@@ -520,39 +534,5 @@ body {
     .first-screen__title {
         max-width: fit-content;
         font-size: 34px;
-    }
-}
-
-.animation__fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 5s;
-}
-
-.animation__slideinLeft {
-    animation-name: slideinLeft;
-    animation-duration: 1s;
-}
-
-@keyframes slideinLeft {
-    from {
-        margin-left: 100%;
-        width: 300%;
-        opacity: 0;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
     }
 }
