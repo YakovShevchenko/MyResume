@@ -398,6 +398,7 @@ body {
 
     .first-screen__photo {
         max-width: 390px;
+        width: 100%;
     }
 
     .info-and-stack__row {
