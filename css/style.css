@@ -394,6 +394,7 @@ body {
         border-left: 2px solid #a3a3a3;
         padding-left: 30px;
         width: 90%;
+        box-sizing: border-box;
     }
 
     .first-screen__photo {
