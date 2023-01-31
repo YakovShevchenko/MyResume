@@ -389,6 +389,12 @@ body {
     .first-screen {
         min-height: 470px;
     }
+    
+    .first-screen__col:first-child {
+        border-left: 2px solid #a3a3a3;
+        padding-left: 30px;
+        width: 90%;
+    }
 
     .first-screen__photo {
         max-width: 390px;
@@ -399,7 +405,7 @@ body {
     }
 
     .info-and-stack__col:last-child {
-        justify-content: center;
+        justify-content: center;        
     }
 
     .facts-about-me__row {
